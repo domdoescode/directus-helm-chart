@@ -24,6 +24,7 @@ To uninstall and delete Directus Helm release:
 helm delete directus-release 
 ```
 
+
 ## Configuration
 
 | Parameter                    | Description                                                                                                                           | Default Value             |

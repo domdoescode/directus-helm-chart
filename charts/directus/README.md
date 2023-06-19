@@ -42,6 +42,7 @@ helm delete directus-release
 | `securityContext`            | Deployment securityContext                                                                                                            | `{}`                      |
 | `service.type`               | Kubernetes service type                                                                                                               | `ClusterIP`               |
 | `service.port`               | Kubernetes port where service is exposed                                                                                              | `80`                      |
+| `service.annotations`        | Kubernetes service annotations                                                                                                        | `{}`                      |
 | `ingress.enabled`            | Enables Ingress                                                                                                                       | `false`                   |
 | `ingress.annotations`        | Ingress annotations                                                                                                                   | `{}`                      |
 | `ingress.hosts`              | Ingress extra paths to prepend to every host configuration                                                                            | `["chart-example.local"]` |
